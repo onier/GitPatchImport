@@ -1,0 +1,23 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fb79a0496c0, pid=5492, tid=5661
+#
+# JRE version: OpenJDK Runtime Environment JBR-11.0.10.9-1341.41-dcevm (11.0.10+9) (build 11.0.10+9-b1341.41)
+# Java VM: Dynamic Code Evolution 64-Bit Server VM JBR-11.0.10.9-1341.41-dcevm (11.0.10+9-b1341.41, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libpthread.so.0+0xa6c0]  __pthread_mutex_lock+0x0
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Djava.rmi.server.hostname=127.0.0.1 -Duser.timezone=UTC -Xmx1987m -Xms128m -Dfile.encoding=UTF-8 com.intellij.database.remote.RemoteJdbcServer org.sqlite.JDBC
+
+Host: 
